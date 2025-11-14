@@ -1,28 +1,22 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fórmula 1 - Inicio</title>
+    <title>Pilotos y Equipos - Fórmula 1</title>
 
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: #111;
+            background: #141414;
             color: white;
         }
 
         header {
-            background: #e10600; /* Rojo F1 */
+            background: #e10600;
             padding: 15px;
             text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.2rem;
         }
 
         nav a {
@@ -32,48 +26,60 @@
             font-weight: bold;
         }
 
-        .hero {
-            text-align: center;
-            padding: 60px 20px;
-            background: url('https://i.imgur.com/oqU9XzB.jpeg') center/cover no-repeat;
-            color: white;
-            font-weight: bold;
-            text-shadow: 0 0 8px black;
+        .lista {
+            padding: 25px;
         }
 
-        .contenido {
-            padding: 25px;
-            background: #1a1a1a;
-            margin: 20px;
+        .card {
+            background: #1f1f1f;
+            padding: 20px;
+            margin: 15px 0;
             border-left: 5px solid #e10600;
-            border-radius: 6px;
+            border-radius: 5px;
+        }
+
+        .card h3 {
+            margin: 0 0 10px 0;
         }
 
         footer {
-            text-align: center;
-            padding: 15px;
             background: #000;
-            margin-top: 20px;
+            padding: 15px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Fórmula 1</h1>
+        <h1>Pilotos & Equipos</h1>
         <nav>
             <a href="index.html">Inicio</a>
             <a href="about.html">Pilotos & Equipos</a>
         </nav>
     </header>
 
-    <section class="hero">
-        <h2>Bienvenidos al Mundo de la F1</h2>
-        <p>Noticias, historia y toda la pasión por el automovilismo.</p>
-    </section>
+    <section class="lista">
+        <h2>Equipos Destacados</h2>
 
-    <section class="contenido">
-        <h3>Temporada 2025</h3>
-        <p>La F1 continúa evolucionando con nuevas tecnologías, circuitos icónicos y batallas inolvidables.</p>
+        <div class="card">
+            <h3>Ferrari</h3>
+            <p>Uno de los equipos más icónicos de la F1, con una historia llena de gloria.</p>
+        </div>
+
+        <div class="card">
+            <h3>Mercedes</h3>
+            <p>Dominadores de la era híbrida y ejemplo de ingeniería avanzada.</p>
+        </div>
+
+        <div class="card">
+            <h3>Red Bull Racing</h3>
+            <p>Conocidos por su alto rendimiento y agresiva aerodinámica.</p>
+        </div>
+
+        <div class="card">
+            <h3>McLaren</h3>
+            <p>Un equipo legendario que ha vuelto fuerte en los últimos años.</p>
+        </div>
     </section>
 
     <footer>
